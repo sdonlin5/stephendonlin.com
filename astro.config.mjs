@@ -10,4 +10,7 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://aether-astro-theme.netlify.app/',
   integrations: [tailwind(), react(), sitemap()],
+  server: {
+    host: true, // or replace `true` with a specific IP string, e.g. '192.168.1.50'
+  },
 });
