@@ -7,19 +7,19 @@ export const myName = 'Stephen Donlin'; // For name in main intro text
 export const navLogoText = 'SD'; // navbar left-most logo text
 // bio for main section
 
-export const myBio = `Welcome to my corner of the internet! Please bare with`;
+export const myBio = `Welcome to my corner of the internet! Please bare with me as I work to build build out the site.`;
 
 // about me text for about section
 
 export const aboutMe =
-  'Computer Science student at University of Colorado at Boulder working towards a career change after a 10+ year career driving marketing strategy and execution.   Skilled at working with cross-functional, global, and external partners to drive business outcomes.   Data-driven and adaptable with a passion for solving problems and taking on new challenges.';
+  'I am a computer science student at University of Colorado at Boulder in my final semester working towards a career change after a 10+ years working in marketing. In my previous roles I have worked with some compI have experience leading and working with cross-functional teams and external partners to drive business outcomes. I love to take on new challenges and solve the problem';
 
 // A sub text for writing/blog section
 export const writingText = 'More is on the way.';
 //
 // A sub text for contact section
 
-export const contactText = ``;
+export const contactText = `Feel free to reach out, I'd love to hear from you!`;
 
 // Links to put in the navigation bar as well as footer at bottom of the page
 
