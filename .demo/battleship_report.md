@@ -1,19 +1,5 @@
----
-layout: ../../layouts/BlogLayout.astro
-title: "Online Battleship Project"
-description: "Online Battleship - Final Report"
-pubDate: "Aug 13 2026"
-heroImage: "/gopher_ship.webp"
-badge: ""
-author: 'Stephen Donlin'
----
-
-<br>
-<br>
-
 # Introduction & Background
-This is the final report for a project in my career development course during the 2026 Summer semester. The goal was to take on any career-relevant project of our choosing.
----
+With this project I wanted to learn something that was outside of my comfort zone and
 
 For this project my goal was to implement an online, turn based clone of the classic board game Battleship. With this project I wanted to take on a challenge that was outside of my comfort zone,  using tools and technologies that were new to me, and had application to the job market in 2026. 
 
@@ -95,17 +81,27 @@ Looking back, I realize how much I’ve learned since entering the program. Wher
 
 Although things are challenging at the moment, the project helped to confirm my choice to pursue a new career in my 40s. Although there were four-letter words at times, at no point did I not want to work through the problems encountered along the way and genuinely enjoyed the challenging aspects of the project.
 
-## Resources Used
+## References
 
+#### Primary Language and Framework Documentation
+##### Go
 - **The Go Programming Language Specification** — <https://go.dev/ref/spec>
 - **Effective Go** — <https://go.dev/doc/effective_go>
 - **gorilla/websocket** — <https://pkg.go.dev/github.com/gorilla/websocket>
+
+##### Swift + SpriteKit + UIKit
+
 - **The Swift Programming Language**— <https://docs.swift.org/swift-book/>
 - **SpriteKit Documentation**- <https://developer.apple.com/documentation/spritekit>
 - **UIKit Documentation**- <https://developer.apple.com/documentation/uikit>
+
+
+#### Courses and interactive references
+
 - **Go Web Examples** — <https://gowebexamples.com/>
 - **Go by Example** — <https://gobyexample.com/>
 - **Go Official Documentation** — <https://go.dev/doc/>
 - **Programming with Google Go Specialization** (University of California, Irvine
   via Coursera) — <https://www.coursera.org/specializations/google-golang>
 - **Hacking with Swift — 100 Days of Swift** — <https://www.hackingwithswift.com/100>
+<br>

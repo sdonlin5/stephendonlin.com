@@ -1,6 +1,6 @@
 ---
 const { navLinks } = Astro.props;
-import { showDeveloperText } from '../data';
+//import { showDeveloperText } from '../data';
 ---
 
 <footer class='bg-gray-50 mt-10'>
@@ -10,7 +10,7 @@ import { showDeveloperText } from '../data';
         class='flex w-full flex-wrap text-md md:text-lg justify-center items-center mb-6 font-medium'
       >
         {
-          navLinks.map((link) => (
+          navLinks.map((link: { href: any; name: unknown; }) => (
             <li>
               <a class='hover:underline me-4 md:me-6' href={`${link.href}`}>
                 {link.name}
@@ -20,7 +20,8 @@ import { showDeveloperText } from '../data';
         }
       </ul>
     </div>
-    <hr class='my-6 border-gray-200 sm:mx-auto lg:my-8' />
+
+  <!--  <hr class='my-6 border-gray-200 sm:mx-auto lg:my-8' />
     <span class='block text-center text-sm text-gray-700 sm:text-center'
       >© {new Date().getFullYear()}
       <span class='hover:underline'>Aether Theme,</span>
@@ -34,6 +35,6 @@ import { showDeveloperText } from '../data';
           </span>
         )
       }
-    </span>
+    </span> -->
   </div>
 </footer>
