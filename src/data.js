@@ -12,7 +12,7 @@ export const myBio = `Welcome to my corner of the internet! Please bare with me 
 // about me text for about section
 
 export const aboutMe =
-  'I am a computer science student at University of Colorado at Boulder in my final semester working towards a career change after a 10+ years working in marketing. In my previous roles I have worked with some compI have experience leading and working with cross-functional teams and external partners to drive business outcomes. I love to take on new challenges and solve the problem';
+  'Computer science student at University of Colorado Boulder, graduating December 2026, after 10+ years leading global marketing programs at like Microsoft, 2K, and Dentsu.';
 
 // A sub text for writing/blog section
 export const writingText = 'More is on the way.';
