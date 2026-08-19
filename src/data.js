@@ -33,7 +33,7 @@ export const navLinks = [
 // Selected projects (side box) for main section of page
 
 export const selectedProjects = [
-  //{ name: '2 Player Battleship', link: '#' },
+  { name: 'Turn Based Game Server in Go', link: 'blogs/go-battleship-server' },
   //{ name: 'Project 2', link: '#' }, add Go game
   //{ name: 'Project 3', link: '#' }, add cybersecurity project
   //{ name: 'Project 4', link: '#' },
@@ -86,11 +86,10 @@ export const workExperiences = [
 // contact box for contact section of the page
 
 export const contactOptions = [
-  { name: 'Email', link: 'stephen@stephendonlin.com' },
-  { name: 'Github', link: 'https://github.com' },
+   { name: 'Email', link: 'mailto:stephen@stephendonlin.com' },
+  { name: 'Github', link: 'https://github.com/sdonlin5' },
   { name: 'LinkedIn', link: 'https://linkedin.com/in/stephendonlin' },
   //{ name: 'X', link: 'https://x.com' },
 ];
-
 // for enabling/disabling maintained by text in footer, if you want.
 //export const showDeveloperText = true;
