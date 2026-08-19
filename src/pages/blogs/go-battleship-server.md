@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogLayout.astro
-title: "Online Battleship Project"
-description: "Online Battleship - Final Report"
+title: "Go BattleShip Server"
+description: "BattleShip game server built in Go"
 pubDate: "Aug 13 2026"
 heroImage: "/gopher_ship.webp"
 badge: ""
